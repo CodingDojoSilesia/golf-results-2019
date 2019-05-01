@@ -22,7 +22,7 @@ for (; i < 45; i++) {
     o = f[0]
 
     // Calculate rows left for current DSL command.
-    // If k > 1 then just decrease it. Otherwise, the new k value depends on specific command parameters.
+    // If k > 0 then just decrease it. Otherwise, the new k value depends on specific command parameters.
     k = (
         k ||
         o == 'm' && m ||
